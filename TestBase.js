@@ -6,7 +6,7 @@ module.exports = class TestBase {
         this.setup();
     }
 
-    setup() {}
+    setup() { }
 
     assert(a, b) {
         if (typeof a !== 'string') {

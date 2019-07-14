@@ -11,7 +11,7 @@ module.exports = class MultipleMatrix {
             for (let j in numbers) {
                 out += ' ' + numbers[i] * numbers[j] + ' |';
             }
-            out+= '\n';
+            out += '\n';
         }
         return out;
     }

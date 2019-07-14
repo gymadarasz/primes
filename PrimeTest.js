@@ -9,7 +9,7 @@ module.exports = class PrimeTest extends TestBase {
         this.out = new MultipleMatrix();
         this.testOk();
     }
-    
+
     testOk() {
         let results = this.gen.run(3);
         this.assert(results, [2, 3, 5]);
