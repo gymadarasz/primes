@@ -9,13 +9,17 @@ module.exports = class TestBase {
     setup() {}
 
     assert(a, b) {
-        if (a.toString() === b.toString()) {
+        if (typeof a !== 'string') {
+            a = a.toString();
+            b = b.toString();
+        }
+        if (a === b) {
             console.log('.');
             this.counter.increment();
             return true;
         }
-        console.log('A:', a);
-        console.log('B:', b);
+        console.log('A: [', a, ']');
+        console.log('B: [', b, ']');
         throw new Error('Assert error');
     }
 

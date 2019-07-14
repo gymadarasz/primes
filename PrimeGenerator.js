@@ -14,7 +14,7 @@ module.exports = class PrimeGenerator {
         // remove all non-primes
         let results = [];
         while(numbers.length) {
-            let first = numbers.shift();
+            let first = numbers.shift();    
             for (let i = first + first; i < max; i+= first) {
                 let idx = numbers.indexOf(i);
                 if (idx < 0) continue;
