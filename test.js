@@ -1,8 +1,8 @@
 
-const TestRunner = require('./TestRunner.js');
-const Counter = require('./Counter.js');
-const PrimeTest = require('./PrimeTest.js');
-const TestBase = require('./TestBase.js');
+const TestRunner = require('./test/TestRunner.js');
+const Counter = require('./src/Counter.js');
+const PrimeTest = require('./test/PrimeTest.js');
+const TestBase = require('./test/TestBase.js');
 
 let counter = new Counter();
 let runner = new TestRunner([

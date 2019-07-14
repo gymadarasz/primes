@@ -1,6 +1,6 @@
 const TestBase = require('./TestBase.js');
-const PrimeGenerator = require('./PrimeGenerator.js');
-const MultipleMatrix = require('./MultipleMatrix.js');
+const PrimeGenerator = require('../src/PrimeGenerator.js');
+const MultipleMatrix = require('../src/MultipleMatrix.js');
 
 module.exports = class PrimeTest extends TestBase {
 

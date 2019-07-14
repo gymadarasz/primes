@@ -1,6 +1,6 @@
 
-const PrimeGenerator = require('./PrimeGenerator.js');
-const MultipleMatrix = require('./MultipleMatrix.js');
+const PrimeGenerator = require('./src/PrimeGenerator.js');
+const MultipleMatrix = require('./src/MultipleMatrix.js');
 
 let gen = new PrimeGenerator();
 let out = new MultipleMatrix();
